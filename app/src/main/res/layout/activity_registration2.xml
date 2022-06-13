@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity2"
+    android:weightSum="1" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:text="Name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@color/teal_700"
+            android:layout_marginTop="15dp"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:text="E-mail"
+            android:textColor="@color/teal_700"
+            android:layout_marginTop="15dp"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:text="Phone number"
+            android:maxLines="1"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/teal_700"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Gender"
+            android:maxLines="1"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/teal_700"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Hobbies"
+            android:textColor="@color/teal_700"
+            android:layout_marginTop="15dp"
+            android:maxLines="1"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Country"
+            android:textColor="@color/teal_700"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:textSize="15dp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:maxLines="1"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000"
+
+                />
+
+            <TextView
+                android:id="@+id/tvemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000"
+
+                />
+
+            <TextView
+                android:id="@+id/tvph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:maxLines="1"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000"
+
+                />
+
+            <TextView
+                android:id="@+id/tvradio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp"
+                android:maxLines="1"
+                android:textColor="#000000"
+
+                />
+            <TextView
+                android:id="@+id/tvhobbies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:maxLines="1"
+                android:layout_marginTop="15dp"
+                />
+            <TextView
+                android:id="@+id/tvcountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:maxLines="1"
+                android:layout_marginTop="15dp"
+                />
+
+        <Button
+            android:id="@+id/userlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:text="Details"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:text="LOGOUT"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/moredetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:text="More Details"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/frag_click"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:text="Fragment View"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/rL_example"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:text="Relative Layout"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

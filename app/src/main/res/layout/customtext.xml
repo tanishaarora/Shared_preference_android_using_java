@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context=".LIstDetails"
+    android:padding="10dp"
+    android:weightSum="1"
+    android:background="@color/white"
+    android:id="@+id/ll_top">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/divider"
+        android:layout_weight="0.3"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/named"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@color/teal_700"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age : "
+            android:textColor="@color/teal_700"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City : "
+            android:textColor="@color/teal_700"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/dob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date of birth : "
+            android:textSize="15sp"
+            android:textColor="@color/teal_700"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.7">
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/deleteicon" />
+    </LinearLayout>
+</LinearLayout>

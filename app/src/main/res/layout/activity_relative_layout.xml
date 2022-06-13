@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    tools:context=".RelativeLayout">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/rl_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:elevation="4dp"
+        app:title="Relative Layout"
+        app:titleTextColor="@color/white" />
+
+    <TextView
+        android:id="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_toolbar"
+        android:text="TOP"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/rl_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:text="A"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/rl_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="B" />
+
+    <TextView
+        android:id="@+id/rl_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="C" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_c"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:text="D"/>
+
+    <TextView
+        android:id="@+id/rl_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:text="H"/>
+
+
+    <TextView
+        android:id="@+id/rl_t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/rl_bottom"
+        android:gravity="end"
+        android:text="T"
+        android:textColor="@color/teal_700"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/rl_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Bottom"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+</RelativeLayout>

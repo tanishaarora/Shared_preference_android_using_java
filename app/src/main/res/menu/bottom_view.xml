@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/frag_home"
+        android:title="Home"
+        android:icon="@drawable/homeicon"
+        android:iconTint="@color/teal_700"/>
+
+    <item
+        android:id="@+id/frag_about"
+        android:title="About Us"
+        android:icon="@drawable/about"
+        android:iconTint="@color/teal_700"/>
+
+    <item
+        android:id="@+id/frag_contact"
+        android:title="Contact Us"
+        android:icon="@drawable/contact"
+        android:iconTint="@color/teal_700"/>
+
+    <item
+        android:id="@+id/frag_search"
+        android:title="Search"
+        android:icon="@drawable/search"
+        android:iconTint="@color/teal_700"/>
+
+</menu>
